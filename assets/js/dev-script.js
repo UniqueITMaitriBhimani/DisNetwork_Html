@@ -43,3 +43,24 @@ document.getElementById('reject').addEventListener('click', function() {
 });
 
 
+document.getElementById('saveButton').addEventListener('click', function () {
+  // Trigger SweetAlert
+  Swal.fire({
+      title: 'Are you sure?',
+      text: "Do you want to complate?",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, Complate it!',
+      cancelButtonText: 'Cancel'
+  }).then((result) => {
+      if (result.isConfirmed) {
+          Swal.fire(
+              'Saved!',
+              'Your changes have been saved.',
+              'success'
+          )
+      }
+  });
+});

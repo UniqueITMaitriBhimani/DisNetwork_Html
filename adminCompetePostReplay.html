@@ -254,6 +254,7 @@
 
 
 
+
                
           </div>
           <!--end::Menu-->
@@ -428,7 +429,7 @@
                     <h2 class="card-title mb-0">Messages</h2>
                 </div>
                 <div class="row">
-                  <div class="col-md-8">
+                  <div class="col-md-12">
                
                     <div class="custom-color">
                       <div class="d-flex mb-4 justify-content-between">
@@ -458,30 +459,7 @@
                       <p>Hey! I'm fine. Thanks for asking!</p>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
-
-                    <textarea name="content" id="editor"></textarea>
-<script>
-ClassicEditor
-    .create(document.querySelector('#editor'))
-    .catch(error => {
-        console.error(error);
-    });
-    </script>
-
-
-                      
-                      <span asp-validation-for="RefferenceDetails" class="text-danger"></span>
-                      
-                      <!-- <textarea class="form-control" id="floatingTextarea2" placeholder="Enter your description..." style="height:169px;"></textarea>
-                      <label for="floatingTextarea2" class="ms-2">Enter Your chat...</label> -->
-                  
-                  <div class="text-center pt-3">
-                      <button class="btn btn-primary">Send</button>
-                      <button class="btn btn-dark">Clear</button>
-                  </div>
-                  </div>
+              
                 </div>
             </div>
             </div>

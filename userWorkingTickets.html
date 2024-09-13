@@ -59,7 +59,14 @@
                     data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="5px">
                     <!--begin::Menu-->
                     <div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500"
-                        id="#kt_aside_menu" data-kt-menu="true"> 
+                        id="#kt_aside_menu" data-kt-menu="true">
+                       
+
+
+
+
+
+
 
                         <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                             <span class="menu-link">
@@ -252,6 +259,8 @@
 
 
 
+
+                  
                          
                     </div>
                     <!--end::Menu-->
@@ -346,7 +355,7 @@
                                     <!--begin::Item-->
                                     <li class="breadcrumb-item text-muted">
                                         <a href="../../demo8/dist/index.html"
-                                            class="text-muted text-hover-primary">HelpDesk-Admin</a>
+                                            class="text-muted text-hover-primary">HelpDesk-Reseller</a>
                                     </li>
                                     <!--end::Item-->
                                     <!--begin::Item-->
@@ -408,28 +417,7 @@
                                                         <!--end::Text-->
                                                     </div>
                                                 </div>
-                                                <div class="col-md-5">
-    
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="input-group mb-5">
-                                                        <span class="input-group-text" id="basic-addon1">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                                                fill="currentColor" class="bi bi-person-circle text-primary"
-                                                                viewBox="0 0 16 16">
-                                                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-                                                                <path fill-rule="evenodd"
-                                                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
-                                                            </svg>
-                                                        </span>
-                                                        <select class="form-select" id="customState-wizard" required=""
-                                                            style="height: 47px;">
-                                                            <option selected="" disabled="" value="">Reseller</option>
-                                                            <option>Reseller 1</option>
-                                                            <option>Reseller 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                            
                                             </div>
                                           
                                             <div class="row mt-5">
@@ -470,33 +458,7 @@
                                                 </div>
                                             </div>
                                             <div class="row mt-5">
-                                                <div class="col-md-3">
-
-                                                    <button
-                                                        class="dropdown-toggle form-select domain-name-dropdown text-start"
-                                                        type="button" id="customState-wizard" data-bs-toggle="dropdown"
-                                                        style="height: 47px;" aria-expanded="false">
-                                                        Accrued By
-                                                    </button>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="#"
-                                                                data-value="wordpress"><span
-                                                                    class="circle bg-primary"></span> Json</a></li>
-                                                        <li><a class="dropdown-item" href="#" data-value="api"><span
-                                                                    class="circle bg-info"></span>
-                                                                Admin</a></li>
-                                                        <li><a class="dropdown-item" href="#"
-                                                                data-value="webscraping"><span
-                                                                    class="circle bg-danger"></span>Reseller</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="#" data-value="admin"><span
-                                                                    class="circle bg-success"></span>Customer</a>
-                                                        </li>
-                                                    </ul>
-                                                    <input type="hidden" id="selectedValue" name="selectedValue"
-                                                        value="">
-
-                                                </div>
+                                              
                                                 <div class="col-md-3">
                                                     <div class="form-floating"> <input type="text"
                                                             data-kt-customer-table-filter="search" class="form-control"
@@ -504,7 +466,7 @@
                                                         <label for="floatingPassword"> Property Name</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 text-end">
+                                                <div class="col-md-9 text-end">
                                                     <button class="btn btn-success">Search</button>
                                                     <button class="btn btn-danger">Clear</button>
                                                 </div>
@@ -537,11 +499,11 @@
                                                             <th>Device</th>
                                                           
                                                             <th>Issue</th>
-                                                            <th>Reseller</th>
+                                                         
                                                             <th> Arrival Date</th>
                                                             <th> Approve Date</th>
                                                             <th>Contact Details</th>
-                                                            <th>Ticket By</th>
+                                                          
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
@@ -550,7 +512,7 @@
                                                             <td> 1 </td>
                                                             <td>Device 1</td>                                                         
                                                             <td>Demage</td>
-                                                            <td>123</td>
+                                                          
                                                             <td>12-12-12</td>
                                                             <td>12-12-12</td>
                                                             <td class="text-center">
@@ -558,7 +520,7 @@
                                                                 <b> Email : </b>abc@gmail.com<br>
                                                                 <b> Number : </b>97865534                                                              
                                                              </td>
-                                                            <td><span class="badge badge-primary">By Admin</span>
+                                                           
                                                             </td>
                                                             <td>
                                                                 <div class="dropdown">
@@ -607,45 +569,8 @@
                                                                                 <span class="ms-2">View</span>
                                                                             </a>
                                                                         </li>
-                                                                        <li>
-                                                                            <a class="dropdown-item d-flex align-items-center"
-                                                                                id="reject" href="#"
-                                                                                data-bs-toggle="modal">
-                                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                    width="16" height="16"
-                                                                                    fill="currentColor"
-                                                                                    class="bi bi-x-circle-fill text-danger"
-                                                                                    viewBox="0 0 16 16">
-                                                                                    <path
-                                                                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
-                                                                                </svg>
-                                                                                <span class="ms-2">Reject</span>
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a class="dropdown-item d-flex align-items-center"
-                                                                                href="#" data-bs-toggle="modal"
-                                                                                data-bs-target="#revertModal">
-                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left text-info" viewBox="0 0 16 16">
-                                                                                    <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
-                                                                                    <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
-                                                                                  </svg>
-                                                                              
-                                                                                <span class="ms-2">Revert</span>
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a class="dropdown-item d-flex align-items-center"
-                                                                                href="#" data-bs-toggle="modal"
-                                                                                data-bs-target="#reasignModal">
-                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left text-info" viewBox="0 0 16 16">
-                                                                                    <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
-                                                                                    <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
-                                                                                  </svg>
-                                                                              
-                                                                                <span class="ms-2">Reasign</span>
-                                                                            </a>
-                                                                        </li>
+                                                                    
+                                                              
                                                                         <li>
                                                                             <a class="dropdown-item d-flex align-items-center"
                                                                                 href="PostReplay.html">
@@ -660,23 +585,7 @@
                                                                                 <span class="ms-2">Post Replay</span>
                                                                             </a>
                                                                         </li>
-                                                                        <li>
-                                                                            <a class="dropdown-item d-flex align-items-center"
-                                                                                href="adminGenerateTickets.html">
-                                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                    width="16" height="16"
-                                                                                    fill="currentColor"
-                                                                                    class="bi bi-pencil-square text-info"
-                                                                                    viewBox="0 0 16 16">
-                                                                                    <path
-                                                                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-                                                                                    <path fill-rule="evenodd"
-                                                                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
-                                                                                </svg>
-
-                                                                                <span class="ms-2">Edit</span>
-                                                                            </a>
-                                                                        </li>
+                                                                    
                                                                         <li>
                                                                             <a class="dropdown-item d-flex align-items-center"
                                                                                 href="PostReplay.html">
@@ -721,9 +630,7 @@
                                                               <div class="col-md-6 fs-4"> <!-- Adjust size with Bootstrap classes -->
                                                                 <b>Ticket Number: </b> 10001
                                                               </div>
-                                                              <div class="col-md-6 fs-4 text-center">
-                                                                <span class="badge badge-primary">By Admin</span>
-                                                              </div>
+                                                           
                                                               <div class="col-md-12 pt-2 fs-4">
                                                                 <b>Device: </b> Device Name
                                                               </div>
@@ -745,9 +652,7 @@
                                                               <div class="col-md-12 pt-2 fs-4">
                                                                 <b>Arrival Date: </b>9988776655
                                                               </div>
-                                                              <div class="col-md-12 pt-2 fs-4">
-                                                                <b>Reseller Name: </b>Bhavesh Bhai
-                                                              </div>
+                                                             
                                                             </div>
                                                           </div>
                                                           
@@ -862,7 +767,7 @@
 
                                                                                 <div class="row pt-2">
                                                                                     <h3><span
-                                                                                            class="badge badge-warning">Working
+                                                                                            class="badge badge-danger">Pending
                                                                                         </span> <svg
                                                                                             xmlns="http://www.w3.org/2000/svg"
                                                                                             width="16" height="16"
@@ -873,7 +778,7 @@
                                                                                                 fill-rule="evenodd"
                                                                                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
                                                                                         </svg> <span
-                                                                                            class="badge badge-danger">Reject</span>
+                                                                                            class="badge badge-warning">Working</span>
                                                                                     </h3>
                                                                                 </div>
                                                                             </div>
@@ -886,7 +791,7 @@
 
                                                     <div class="pt-4 text-center">
                                                         <button type="button"
-                                                            class="btn btn-primary">Revert</button>
+                                                            class="btn btn-primary">Reassign</button>
                                                         <button type="button"
                                                             class="btn btn-success">Completed</button>
                                                         <button type="button" class="btn btn-danger">Reject</button>
@@ -897,7 +802,41 @@
                                         </div>
                                     </div>
 
-                                    
+                                    <div class="modal fade" id="reasignModal" tabindex="-1"
+                                    aria-labelledby="viewModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog viewModalHight">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>Ticket Number 1001</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row pt-2">
+                                                    <div>
+                                                        <label><b>Select User</b></label>
+                                                        <select class="form-select rounded">
+                                                          <option value="">Select User</option>
+                                                          <option>User1</option>
+                                                          <option>User2</option>
+                                                        
+                                                        </select>
+                                                      </div>
+                                                </div>
+                                                <div class="pt-2">
+                                                    <label><b>Add Remarks</b></label>
+                                                   <textarea class="form-control" placeholder="Remarks.."></textarea>
+                                                  </div>
+
+                                              
+                                            </div>
+                                            <div class="modal-footer p-1 justify-content-center">
+                                                <button type="button" class="btn btn-primary rounded">Save</button>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                     <div class="modal fade" id="completeModal" tabindex="-1"
                                     aria-labelledby="completeModalLabel" aria-hidden="true">
                                     <div class="modal-dialog viewModalHight">
@@ -932,7 +871,7 @@
                                               
                                             </div>
                                             <div class="modal-footer p-1 justify-content-center">
-                                                <button type="button" id="saveButton"    class="btn btn-primary rounded">Save</button>
+                                                <button type="button" class="btn btn-primary rounded">Save</button>
                                               </div>
                                         </div>
                                     </div>
@@ -948,9 +887,9 @@
                                                             aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
-                                                        <div class="row pt-2 text-center">
+                                                        <div class="row pt-2">
                                                             <h3><span
-                                                                    class="badge badge-warning">Working
+                                                                    class="badge badge-secondary">New
                                                                 </span> <svg
                                                                     xmlns="http://www.w3.org/2000/svg"
                                                                     width="16" height="16"
@@ -961,7 +900,7 @@
                                                                         fill-rule="evenodd"
                                                                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
                                                                 </svg> <span
-                                                                    class="badge badge-danger">Pending</span>
+                                                                    class="badge badge-danger">New</span>
                                                             </h3>
                                                         </div>
                                                         <div class="pt-2">
@@ -977,40 +916,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="modal fade" id="reasignModal" tabindex="-1"
-                                        aria-labelledby="viewModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog viewModalHight">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h3>Ticket Number 1001</h3>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row pt-2">
-                                                        <div>
-                                                            <label><b>Select User</b></label>
-                                                            <select class="form-select rounded">
-                                                              <option value="">Select User</option>
-                                                              <option>User1</option>
-                                                              <option>User2</option>
-                                                            
-                                                            </select>
-                                                          </div>
-                                                    </div>
-                                                    <div class="pt-2">
-                                                        <label><b>Add Remarks</b></label>
-                                                       <textarea class="form-control" placeholder="Remarks.."></textarea>
-                                                      </div>
-
-                                                  
-                                                </div>
-                                                <div class="modal-footer p-1 justify-content-center">
-                                                    <button type="button" class="btn btn-primary rounded">Save</button>
-                                                  </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     </div>
 

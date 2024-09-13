@@ -19,7 +19,6 @@
   <meta property="og:site_name" content="Keenthemes | Metronic" />
   <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
   <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="assets/css/dev-style.css">
   <!--begin::Fonts-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
   <!--end::Fonts-->
@@ -29,8 +28,6 @@
   <!--begin::Global Stylesheets Bundle(used by all pages)-->
   <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
-
   <!--end::Global Stylesheets Bundle-->
   <style>
     .btn-theme {
@@ -49,11 +46,11 @@
     <div class="page d-flex flex-row flex-column-fluid">
       <!--begin::Aside-->
       <div id="kt_aside" class="aside" data-kt-drawer="true" data-kt-drawer-name="aside"
-        data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
-        data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
-        data-kt-drawer-toggle="#kt_aside_mobile_toggle">
-        <!--begin::Aside menu-->
-        <div class="aside-menu flex-column-fluid">
+      data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true"
+      data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start"
+      data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+      <!--begin::Aside menu-->
+      <div class="aside-menu flex-column-fluid">
           <!--begin::Aside Menu-->
           <div class="hover-scroll-overlay-y px-2 my-5 my-lg-5" id="kt_aside_menu_wrapper"
           data-kt-scroll="true" data-kt-scroll-height="auto"
@@ -228,6 +225,7 @@
                             <span class="menu-title">Completed Tickets</span>
                         </a>
                     </div>
+                
                     <div class="menu-item">
                       <a class="menu-link" href="userGenrateTicket.html">
                           <span class="menu-bullet">
@@ -236,7 +234,6 @@
                           <span class="menu-title">Generate Tickets</span>
                       </a>
                   </div>
-                
                 </div>
             </div>
 
@@ -260,6 +257,8 @@
       </div>
           <!--end::Aside Menu-->
       </div>
+      <!--end::Aside menu-->
+  </div>
         <!--end::Aside menu-->
       </div>
       <!--end::Aside-->
@@ -333,7 +332,7 @@
               <!--begin::Page title-->
               <div class="page-title d-flex flex-column me-5">
                 <!--begin::Title-->
-                <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-0">Dashboard</h1>
+                <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-0">Generate Tickets</h1>
                 <!--end::Title-->
                 <!--begin::Breadcrumb-->
                 <ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 pt-1">
@@ -348,7 +347,7 @@
                   </li>
                   <!--end::Item-->
                   <!--begin::Item-->
-                  <li class="breadcrumb-item text-dark">Default</li>
+                  <li class="breadcrumb-item text-dark">Generate Tickt</li>
                   <!--end::Item-->
                 </ul>
                 <!--end::Breadcrumb-->
@@ -361,129 +360,91 @@
         </div>
         <!--end::Header-->
         <!--begin::Content-->
-        <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+        <div class="content d-flex flex-column flex-column-fluid " id="kt_content">
           <!--begin::Post-->
           <div class="post d-flex flex-column-fluid" id="kt_post">
             <!--begin::Container-->
             <div id="kt_content_container" class="container-fluid">
               <!--begin::Row-->
-              
-              <!--end::Row-->
-              <div class="card">
-                <div class="row p-5 pb-0">
-                  <div class="col-md-6">
-                    <h1 class="card-title mt-3 px-4">Ticket Details</h1>
-                  </div>
-                  <div class="col-md-6 fs-4 text-center">
-                    <span class="badge badge-primary">By Admin</span>
-
-                  </div>
-                </div>
-              
-                <div class="card-body pt-2 d-flex justify-content-between">            
-                
-               <div class="container-fluid">
-                <div class="row">
-              
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Ticket Number: </b> 1001
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Device: </b> Device Name
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Issue: </b> Damage
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Contact Person Name: </b>ABC
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Contact Number: </b>Domain Name 1
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Email: </b>abc@gmail.com
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Description: </b>Description
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Arrival Date: </b>9988776655
-                  </div>
-                  <div class="col-md-4 pt-2 fs-4">
-                    <b>Reseller Name: </b>Bhavesh Bhai
-                  </div>
-                </div>
-              
-              
-              
-           
-               </div>
-                
-                
-              
-            </div>
-               </div>
-              <div class="card mt-4 p-3">
-                <div class="card-body d-flex justify-content-between">
-                    <h2 class="card-title mb-0">Messages</h2>
-                </div>
-                <div class="row">
-                  <div class="col-md-8">
-               
-                    <div class="custom-color">
-                      <div class="d-flex mb-4 justify-content-between">
-                        <div class="d-flex text-small text-muted">
-                        <div class="me-2 ">29/08/2024</div>
-                        <div>|</div>
-                        <div class="mx-2 ">11:00 am</div>
-                        </div>
-                        <div>
-                          <div class="text-small text-muted">Admin admin</div>
-                        </div>
+              <div class="row g-5 g-xl-8 ">
+                <div class="col-xl-12">
+                  <!--begin::Statistics Widget 5-->
+                  <div class="card bg-body-white ">
+                    <!--begin::Body-->
+                    <div class="row card-body d-flex ">
+                      <div class="col-md-12 d-flex justify-content-between ">
+                        <h1 class="">Generate Tickets</h1>
+                     
                       </div>
-                      <p>Hello. How are you today?</p>
-                    </div>
+                      <div class="row ">
+                      
+                        
+                        <div class="col-md-6 mt-10 mb-10">
+                          <label for="exampleFormControlInput1" class="required form-label">Contact Person Name</label>
+                          <input type="text" class="form-control form-control-solid"
+                            placeholder="Enter Contact Person Name here..." />
+                        </div>
+                        <div class="col-md-6 mb-2 mt-10">
+                          <label for="exampleFormControlInput1" class="required form-label">Contact Number</label>
+                          <input type="tel" class="form-control form-control-solid" placeholder="Enter Contact Number..." />
+                        </div>
+                        <div class="col-md-6 mb-10">
+                          <label for="exampleFormControlInput1" class="required form-label">Email</label>
+                          <input type="email" class="form-control form-control-solid"
+                            placeholder="Enter Email here..." />
+                        </div>
+                        <div class="col-md-6 mb-10">
+                          <label for="exampleFormControlInput1" class="required form-label">Property Name</label>
+                          <input type="text" class="form-control form-control-solid"
+                            placeholder="Enter Property Name here..." />
+                        </div>
+                        <div class="col-md-6 mb-10">
+                          <label for="exampleFormControlInput1" class="required form-label">File</label>
+                          <input type="file" class="form-control form-control-solid"
+                           />
+                        </div>
+
+                        <div class="col-md-12 mb-2">
+                          <label for="exampleFormControlInput1" class="required form-label">Description</label>
+                          <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+
+                          <textarea name="content" id="editor"></textarea>
+      <script>
+      ClassicEditor
+          .create(document.querySelector('#editor'))
+          .catch(error => {
+              console.error(error);
+          });
+          </script>
+      
+      
+                            
+                            <span asp-validation-for="RefferenceDetails" class="text-danger"></span>
+                            
+                        </div>
                     
-                    <div class="custom-color mt-3">
-                      <div class="d-flex mb-4 justify-content-between">
-                        <div class="d-flex text-small text-muted">
-                        <div class="me-2 ">29/08/2024</div>
-                        <div>|</div>
-                        <div class="mx-2 ">11:02 am</div>
-                        </div>
-                        <div>
-                          <div class="text-small text-muted">Change demo</div>
-                        </div>
+                      
+                       
                       </div>
-                      <p>Hey! I'm fine. Thanks for asking!</p>
+                      <div class="col-md-12 text-center my-10 pe-40">
+                        <div class="btn btn-primary">Create</div>
+                        <div class="btn btn-danger">Clear</div>
+
+
+                      </div>
+
+
                     </div>
+                    <!--end::Body-->
                   </div>
-                  <div class="col-md-4">
-                    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
-
-                    <textarea name="content" id="editor"></textarea>
-<script>
-ClassicEditor
-    .create(document.querySelector('#editor'))
-    .catch(error => {
-        console.error(error);
-    });
-    </script>
 
 
-                      
-                      <span asp-validation-for="RefferenceDetails" class="text-danger"></span>
-                      
-                      <!-- <textarea class="form-control" id="floatingTextarea2" placeholder="Enter your description..." style="height:169px;"></textarea>
-                      <label for="floatingTextarea2" class="ms-2">Enter Your chat...</label> -->
-                  
-                  <div class="text-center pt-3">
-                      <button class="btn btn-primary">Send</button>
-                      <button class="btn btn-dark">Clear</button>
-                  </div>
-                  </div>
+                  <!--end::Statistics Widget 5-->
                 </div>
-            </div>
+
+              </div>
+              <!--end::Row-->
+
             </div>
             <!--end::Container-->
           </div>
@@ -531,7 +492,7 @@ ClassicEditor
   <!--end::Main-->
   <script>var hostUrl = "assets/";</script>
   <!--begin::Javascript-->
-
+  <script src="assets/js/dev-script.js"></script>
   <!--begin::Global Javascript Bundle(used by all pages)-->
   <script src="assets/plugins/global/plugins.bundle.js"></script>
   <script src="assets/js/scripts.bundle.js"></script>
